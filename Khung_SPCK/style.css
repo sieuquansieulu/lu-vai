@@ -1,0 +1,229 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      }
+.container-1 {
+      height: 800px;
+      background-color: red;
+}
+.container-2 {
+      height: 800px;
+      background-color: black;
+}
+
+img{
+      width: 50px;
+}
+#head-bar{
+      width: 1912px;
+      background-color: black;
+      display: flex;
+   justify-content: center;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      list-style-type: none;
+      width: 100px;
+
+}
+a{
+      color: gray;
+      text-decoration: none;
+}
+ .nav-bar a:hover{
+      
+      cursor: pointer;
+      color: white;
+   
+
+}
+.nav-bar:hover{
+      border-bottom: 4px solid goldenrod;
+}
+.img_user{
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      width: 300px;
+    
+}
+.dow-but{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.dow-but button{
+      border-radius: 10px;
+}
+.dow-but button:hover{
+      filter: grayscale(30%);
+}
+.first{
+      background-image: url(capsule_616x353\ \(1\).jpg);
+      background-size: 80%;
+      display: flex;
+      align-items: center;
+
+}
+p.c{
+   margin-top: 50px;
+}
+.firt-con{
+      height: 600px;
+
+}
+.firt-con button:hover{
+      filter: grayscale(20%);
+}
+.firt-con a:hover{
+      cursor: pointer;
+}
+.second{
+      background-color: rgb(29, 29, 29);
+}
+.second{
+      display: flexbox;
+ 
+}
+h1{
+      border-left: 4px solid aqua;
+      margin-bottom: 30px;
+      margin-left: 340px;
+      
+}
+.div-img{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 270px;
+}
+.se-img{
+  
+      width: 350px;
+      margin-left: 70px;
+}
+.se-img img{
+      width: 350px;
+      height: 350px;
+}
+.heading1{
+      display: flex;
+ align-items: center;
+}
+.third{
+  
+      
+      background-color: white;
+}
+h2{
+      height: 35px;
+       border-left: 4px solid aqua;
+}
+.tiers{
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+}
+.collum{
+      display: flex;
+      justify-content: space-evenly;   
+}
+.col-con{
+     
+     
+      box-shadow: gray 2px 2px 2px 2px;
+      margin-top: 50px;
+      width: 300px;
+      height: 500px;
+      border-top: 4px solid rgb(36, 35, 35);
+}
+.khung-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+h3{
+      margin-top: 10px;
+      font-size: 30px;
+}
+.col-but{
+      width: 300px;
+      display: flex;
+      justify-content: center;
+}
+.col-but button:hover{
+      filter: grayscale(30%);
+}
+.col-bottom{
+      margin-top: 60px;
+      width: 1912px;
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+}
+.col-bottom button{
+      background-color: white;
+      color: rgb(2, 80, 80) ;
+}
+.col-bottom button:hover{
+      background-color: rgb(2, 80, 80) ; 
+      color: white;
+}
+.footer{
+      width: 1912px;
+      height: 500px;
+      background-color: black;
+}
+.footer1{
+      width: 1912px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#foo-content{
+      width: 1500px;
+      height: 300px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.Social{
+    height: 300px;
+
+}
+.foo-con p {
+      margin-top: 5px;
+}
+.foo-con a:hover{
+      color: white;
+}
+.Social a:hover{
+      color: white;
+}
+.foo-con{
+      
+     width: 300px;
+     height: 300px;
+      display: block;
+}
+.Social a{
+    margin: 3px;
+}
+.more a{
+      margin-left: 20px;
+}
+.more{
+      width: 1912px;
+ display: flex;
+
+ align-items: center;
+}
+.more a:hover{
+      color: white;
+}
